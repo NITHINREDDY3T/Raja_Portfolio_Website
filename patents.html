@@ -1,0 +1,150 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Patents</title>
+  <style>
+    body {
+      font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+      background-color: #f0f0f0;
+      margin: 0;
+      padding: 20px;
+      color: #333;
+    }
+    .container {
+      max-width: 1200px;
+      margin: 0 auto;
+      padding: 20px;
+      background: #fff;
+      box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+      border-radius: 10px;
+    }
+    .header {
+      text-align: center;
+      margin-bottom: 40px;
+    }
+    .header h1 {
+      font-size: 2.5em;
+      color: #000;
+    }
+    .patents {
+      display: grid;
+      grid-template-columns: repeat(auto-fill, minmax(300px, 1fr));
+      gap: 20px;
+    }
+    .patent-card {
+      background: #333;
+      border: 1px solid #ddd;
+      border-radius: 12px;
+      box-shadow: 0 8px 16px rgba(0, 0, 0, 0.2);
+      overflow: hidden;
+      transition: transform 0.3s ease-in-out, box-shadow 0.3s ease-in-out;
+    }
+    .patent-card:hover {
+      transform: translateY(-10px);
+      box-shadow: 0 12px 24px rgba(0, 0, 0, 0.2);
+    }
+    .patent-content {
+      padding: 20px;
+      background-color: #333; /* Dark gray background */
+      color: #fff; /* White text */
+      border-bottom-left-radius: 12px;
+      border-bottom-right-radius: 12px;
+    }
+    .patent-content h3 {
+      margin: 0 0 10px;
+      font-size: 1.5em;
+      color: #d9534f; /* Title color */
+    }
+    .patent-content p {
+      margin: 0 0 15px;
+      font-size: 1em;
+      color: #ccc; /* Light gray text */
+    }
+    .patent-content span {
+      display: block;
+      font-size: 0.9em;
+      color: #999;
+    }
+    .patent-content a {
+      display: inline-block;
+      padding: 10px 15px;
+      font-size: 0.9em;
+      color: #fff;
+      background: #d9534f;
+      border-radius: 5px;
+      text-decoration: none;
+      transition: background 0.2s ease-in-out;
+    }
+    .patent-content a:hover {
+      background: #c9302c;
+    }
+  </style>
+</head>
+<body>
+  <div class="container">
+    <div class="header">
+      <h1>Patents</h1>
+    </div>
+    <div class="patents">
+      <!-- Patent 1 -->
+      <div class="patent-card">
+        <div class="patent-content">
+          <h3>Tuning Genre Frequency Recognition</h3>
+          <p>Application Number: 202241055462</p>
+          <span>Status: Published</span>
+        </div>
+      </div>
+      <!-- Patent 2 -->
+      <div class="patent-card">
+        <div class="patent-content">
+          <h3>Flower Plucking Robotic Arm</h3>
+          <p>Application Number: 202241055456</p>
+          <span>Status: Published</span>
+        </div>
+      </div>
+      <!-- Patent 3 -->
+      <div class="patent-card">
+        <div class="patent-content">
+          <h3>Robotic Weed Removing Apparatus and Method Thereof</h3>
+          <p>Application Number: 202241002965</p>
+          <span>Status: Published</span>
+        </div>
+      </div>
+      <!-- Patent 4 -->
+      <div class="patent-card">
+        <div class="patent-content">
+          <h3>Cutoy Interactive Toy for Autistic Kids Leveraging Yoga</h3>
+          <p>Application Number: 202341005317</p>
+          <span>Status: Published</span>
+        </div>
+      </div>
+      <!-- Patent 5 -->
+      <div class="patent-card">
+        <div class="patent-content">
+          <h3>Portable Smart Rescue Device for Trapped Child in Open Borewell</h3>
+          <p>Application Number: 202341005318</p>
+          <span>Status: Published</span>
+        </div>
+      </div>
+      <!-- Patent 6 -->
+      <div class="patent-card">
+        <div class="patent-content">
+          <h3>Yoga Activity Recognition leveraging customized deep learning model and IoT frameworks</h3>
+          <p>Application Number: 202341039528</p>
+          <span>Status: Published</span>
+        </div>
+      </div>
+      <!-- Patent 7 -->
+      <div class="patent-card">
+        <div class="patent-content">
+          <h3>FaceIT - A Facial Attendance System</h3>
+          <p>Application Number: 202341039529</p>
+          <span>Status: Published</span>
+        </div>
+      </div>
+    </div>
+  </div>
+</body>
+</html>
